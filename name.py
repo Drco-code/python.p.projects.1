@@ -20,6 +20,6 @@ input_names = [name.strip() for name in input_names]
 # Group the names into 6 pairsg
 grouped_names = group_names(input_names)
 
-# Print the groups
+# Print the group of names
 for i in range(len(grouped_names)):
     print(f"Group {i+1}: {grouped_names[i]}")
